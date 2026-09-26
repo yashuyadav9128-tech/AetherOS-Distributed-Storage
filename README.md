@@ -32,6 +32,10 @@ or
   python demo.py --delay 1.0
   ```
 
+## Vercel Dashboard Preview
+
+Vercel detects the FastAPI entrypoint in `app.py` and serves the dashboard at `/`. This is a visual preview only: Vercel does not run the coordinator and six storage-node processes, so live telemetry and cluster controls are unavailable. Run the cluster locally with `python demo.py --keep-alive` for the fully interactive dashboard.
+
 ---
 
 ## 📋 The 12 Demonstrated Requirements
