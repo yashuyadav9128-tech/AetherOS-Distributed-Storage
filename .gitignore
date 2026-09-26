@@ -1,0 +1,5 @@
+__pycache__/
+*.py[cod]
+
+# Runtime object data and downloaded demo files
+/data/
